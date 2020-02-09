@@ -7,3 +7,6 @@ https://github.com/CycloPiStudio/Plantilla_menu/tree/0afd5823d51af006a8a9f490a7b
 
 https://github.com/CycloPiStudio/Plantilla_menu
 
+FPS tutorial
+https://docs.godotengine.org/en/3.1/tutorials/3d/fps_tutorial/part_one.html
+
