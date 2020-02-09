@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Ejecutable/Juego/HUD/P1_contador_segundos/P1_contador_segundos.tscn" type="PackedScene" id=1]
+
+[node name="Nivel1" type="Node2D"]
+
+[node name="Conta_segundos" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320.482, -93.2746 )
