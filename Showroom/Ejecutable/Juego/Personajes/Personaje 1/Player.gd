@@ -30,7 +30,7 @@ func _ready():
 	
 #	flashlight = $Rotation_Helper/Flashlight
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	process_input(delta)
 	process_movement(delta)
 
