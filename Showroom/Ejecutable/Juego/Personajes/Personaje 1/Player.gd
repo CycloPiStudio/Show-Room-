@@ -4,7 +4,7 @@ const GRAVITY = -24.8
 var vel = Vector3()
 const MAX_SPEED = 20
 const JUMP_SPEED = 18
-const ACCEL= 4.5
+const ACCEL= 3.1
 
 const MAX_SPRINT_SPEED = 30
 const SPRINT_ACCEL = 18
@@ -30,11 +30,11 @@ func _ready():
 	
 #	flashlight = $Rotation_Helper/Flashlight
 
-func _physics_process(_delta):
+func _physics_process(delta):
 	process_input(delta)
 	process_movement(delta)
 
-func process_input(delta):
+func process_input(_delta):
 
 	# ----------------------------------
 	# Walking
