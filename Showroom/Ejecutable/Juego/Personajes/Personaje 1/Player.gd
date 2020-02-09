@@ -28,7 +28,7 @@ func _ready():
 
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	
-	flashlight = $Rotation_Helper/Flashlight
+#	flashlight = $Rotation_Helper/Flashlight
 
 func _physics_process(delta):
 	process_input(delta)
@@ -42,12 +42,13 @@ func process_input(delta):
 	var cam_xform = camera.get_global_transform()
 
 	var input_movement_vector = Vector2()
-
+	
 	if Input.is_action_pressed("movement_forward"):
 		input_movement_vector.y += 1
 	if Input.is_action_pressed("movement_backward"):
 		input_movement_vector.y -= 1
 	if Input.is_action_pressed("movement_left"):
+		
 		input_movement_vector.x -= 1
 	if Input.is_action_pressed("movement_right"):
 		input_movement_vector.x += 1
