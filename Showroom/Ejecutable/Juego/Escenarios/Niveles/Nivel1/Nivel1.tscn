@@ -11,4 +11,3 @@
 [node name="Personaje1" parent="." instance=ExtResource( 2 )]
 
 [node name="Conta_segundos" parent="." instance=ExtResource( 3 )]
-position = Vector2( 320.482, -93.2746 )
