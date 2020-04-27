@@ -1,7 +1,8 @@
 extends Node
 
-var preNivel_juegar_1 = preload("res://Ejecutable/Juego/Escenarios/Niveles/Nivel1/Nivel1.tscn")
+#var preNivel_juegar_1 = preload("res://Ejecutable/Juego/Escenarios/Niveles/Nivel1/Nivel1.tscn")
 var preNivel_juegar_2 = preload("res://Ejecutable/Juego/Escenarios/Niveles/Nivel2/Nivel2.tscn")
+var preNivel_carga_1 = preload("res://Ejecutable/Menu/Carga/escena_carga.tscn")
 #var preNivel_carga_1 = preload("res://Ejecutable/Juego/Escenarios/Niveles/Nivel1/CargarNivel1.tscn")
 var preMenu = load("res://Ejecutable/Menu/Menu_entrar/Menu_entrar.tscn")
 var Menu
@@ -23,7 +24,7 @@ func _ready():
 
 func _on_Boton_nivel1_pressed():
 	get_node("/root/Nodo_Dios").Nivel_jugar = 1
-	cargar_nivel(preNivel_juegar_1)
+	cargar_nivel(preNivel_carga_1)
 	pass # Replace with function body.
 	
 func _on_Boton_nivel2_pressed():
