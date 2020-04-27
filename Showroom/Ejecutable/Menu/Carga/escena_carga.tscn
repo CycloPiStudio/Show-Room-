@@ -19,12 +19,12 @@ texture = ExtResource( 2 )
 centered = false
 
 [node name="Cargando" type="Button" parent="Botones"]
-margin_left = 560.0
+margin_left = 563.425
 margin_top = 35.0
-margin_right = 951.0
+margin_right = 971.425
 margin_bottom = 148.0
 custom_fonts/font = SubResource( 1 )
-text = "Loanding..."
+text = "Loading..."
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true
