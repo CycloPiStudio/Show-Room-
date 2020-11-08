@@ -1,5 +1,14 @@
-# Show-Room-
-Show Room  3D 
+# Show Room 3D
+
+----------------------------------------
+
+Planificación 8 noviembre 2020:
+
+Detectar pantalla touch
+
+Meter escala referecnia para modelos
+
+----------------------------------------
 
 Plantilla Menús, 9 febrero 2020:
 
